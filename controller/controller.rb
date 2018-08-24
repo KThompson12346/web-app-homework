@@ -16,21 +16,21 @@ class Controller < Sinatra::Base
     id: 0,
     title: "Man punches Kangaroo",
     post_body: "Man gets into it with kangaroo.",
-    video_thumbnail: "/images/ManPunchesKangaroo.jpg",
-    video_description: "hello"
+    video_thumbnail: "https://us-east-1.tchyn.io/snopes-production/uploads/2016/12/man-punches-kangaroo.jpg?resize=865%2C452",
+    video_description: ""
     },
     {
       id: 1,
       title: "The Equalizer 2",
       post_body: "Trailer for The Equalizer 2",
-      video_thumbnail: "",
+      video_thumbnail: "https://www.sliceofscifi.com/wp-content/uploads/2018/07/EQ2-feat.jpg",
       video_description: ""
       },
       {
         id: 2,
         title: "Monkey riding bike around car park",
         post_body: "Monkey steals bike and takes it on a joy ride.",
-        video_thumbnail: "",
+        video_thumbnail: "https://i.dailymail.co.uk/i/newpix/2018/07/27/20/4EA1579100000578-6000089-image-m-4_1532719096213.jpg",
         video_description: ""
         }]
 
