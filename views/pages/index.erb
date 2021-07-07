@@ -1,0 +1,9 @@
+<h1>Welcome to U-Tube the number one video sharing site</h1>
+<h3>Newly uploaded videos</h3>
+  <% @posts.each do |post| %>
+  <div>
+    <h3><a href="<%= post[:id] %>"><%= post[:title] %></a></h3>
+    <img src="<%= post[:video_thumbnail] %>" alt="">
+    <p><%= post[:post_body] %></p>
+  </div>
+  <% end %>
